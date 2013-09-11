@@ -14,13 +14,15 @@
 		0D399D7D17DFB04600E52EDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D399D7C17DFB04600E52EDA /* main.m */; };
 		0D399D8117DFB04600E52EDA /* D1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D399D8017DFB04600E52EDA /* D1AppDelegate.m */; };
 		0D399D8417DFB04600E52EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D399D8217DFB04600E52EDA /* Main.storyboard */; };
-		0D399D8717DFB04600E52EDA /* D1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D399D8617DFB04600E52EDA /* D1ViewController.m */; };
+		0D399D8717DFB04600E52EDA /* D1NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D399D8617DFB04600E52EDA /* D1NewPostViewController.m */; };
 		0D399D8917DFB04600E52EDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D399D8817DFB04600E52EDA /* Images.xcassets */; };
 		0D399D9017DFB04600E52EDA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D399D8F17DFB04600E52EDA /* XCTest.framework */; };
 		0D399D9117DFB04600E52EDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D399D7017DFB04600E52EDA /* Foundation.framework */; };
 		0D399D9217DFB04700E52EDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D399D7417DFB04600E52EDA /* UIKit.framework */; };
 		0D399D9A17DFB04700E52EDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D399D9817DFB04700E52EDA /* InfoPlist.strings */; };
 		0D399D9C17DFB04700E52EDA /* PostLogger1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D399D9B17DFB04700E52EDA /* PostLogger1Tests.m */; };
+		0D399DA717DFB9E300E52EDA /* D1Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D399DA617DFB9E300E52EDA /* D1Post.m */; };
+		0D399DAA17DFF34E00E52EDA /* D1PostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D399DA917DFF34E00E52EDA /* D1PostListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		0D399D7F17DFB04600E52EDA /* D1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D1AppDelegate.h; sourceTree = "<group>"; };
 		0D399D8017DFB04600E52EDA /* D1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D1AppDelegate.m; sourceTree = "<group>"; };
 		0D399D8317DFB04600E52EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0D399D8517DFB04600E52EDA /* D1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D1ViewController.h; sourceTree = "<group>"; };
-		0D399D8617DFB04600E52EDA /* D1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D1ViewController.m; sourceTree = "<group>"; };
+		0D399D8517DFB04600E52EDA /* D1NewPostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D1NewPostViewController.h; sourceTree = "<group>"; };
+		0D399D8617DFB04600E52EDA /* D1NewPostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D1NewPostViewController.m; sourceTree = "<group>"; };
 		0D399D8817DFB04600E52EDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0D399D8E17DFB04600E52EDA /* PostLogger1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostLogger1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D399D8F17DFB04600E52EDA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0D399D9717DFB04700E52EDA /* PostLogger1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PostLogger1Tests-Info.plist"; sourceTree = "<group>"; };
 		0D399D9917DFB04700E52EDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D399D9B17DFB04700E52EDA /* PostLogger1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostLogger1Tests.m; sourceTree = "<group>"; };
+		0D399DA517DFB9E300E52EDA /* D1Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D1Post.h; sourceTree = "<group>"; };
+		0D399DA617DFB9E300E52EDA /* D1Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D1Post.m; sourceTree = "<group>"; };
+		0D399DA817DFF34E00E52EDA /* D1PostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D1PostListViewController.h; sourceTree = "<group>"; };
+		0D399DA917DFF34E00E52EDA /* D1PostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D1PostListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +121,12 @@
 				0D399D7F17DFB04600E52EDA /* D1AppDelegate.h */,
 				0D399D8017DFB04600E52EDA /* D1AppDelegate.m */,
 				0D399D8217DFB04600E52EDA /* Main.storyboard */,
-				0D399D8517DFB04600E52EDA /* D1ViewController.h */,
-				0D399D8617DFB04600E52EDA /* D1ViewController.m */,
+				0D399DA817DFF34E00E52EDA /* D1PostListViewController.h */,
+				0D399DA917DFF34E00E52EDA /* D1PostListViewController.m */,
+				0D399DA517DFB9E300E52EDA /* D1Post.h */,
+				0D399DA617DFB9E300E52EDA /* D1Post.m */,
+				0D399D8517DFB04600E52EDA /* D1NewPostViewController.h */,
+				0D399D8617DFB04600E52EDA /* D1NewPostViewController.m */,
 				0D399D8817DFB04600E52EDA /* Images.xcassets */,
 				0D399D7717DFB04600E52EDA /* Supporting Files */,
 			);
@@ -252,7 +262,9 @@
 			files = (
 				0D399D7D17DFB04600E52EDA /* main.m in Sources */,
 				0D399D8117DFB04600E52EDA /* D1AppDelegate.m in Sources */,
-				0D399D8717DFB04600E52EDA /* D1ViewController.m in Sources */,
+				0D399DA717DFB9E300E52EDA /* D1Post.m in Sources */,
+				0D399DAA17DFF34E00E52EDA /* D1PostListViewController.m in Sources */,
+				0D399D8717DFB04600E52EDA /* D1NewPostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
