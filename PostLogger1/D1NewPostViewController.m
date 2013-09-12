@@ -32,16 +32,20 @@
 
 - (IBAction)saveButton:(UIButton *)sender
 {
-    _mypost =[[D1Post alloc]initWithUserName:nil andTitle:_createdTitle.text andContent:_createContent.text];
+    _mypost =[[D1Post alloc]initWithUserName:_createdUsername.text andTitle:_createdTitle.text andContent:_createContent.text];
+    NSLog (@"%@", _mypost);
+    
+    
+    [[(D1PostListViewController*)self.presentingViewController posts] addObject:_mypost];
+    [[(D1PostListViewController*)self.presentingViewController tableview] reloadData];
+    
 
     [self dismissViewControllerAnimated:YES completion:^{
         
-        [[(D1PostListViewController*)self.presentingViewController posts] addObject:_mypost];
-        [[(D1PostListViewController*)self.presentingViewController tableview] reloadData];
- 
         
     }];
 }
+
 
 
 @end

@@ -23,6 +23,9 @@
 		0D399D9C17DFB04700E52EDA /* PostLogger1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D399D9B17DFB04700E52EDA /* PostLogger1Tests.m */; };
 		0D399DA717DFB9E300E52EDA /* D1Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D399DA617DFB9E300E52EDA /* D1Post.m */; };
 		0D399DAA17DFF34E00E52EDA /* D1PostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D399DA917DFF34E00E52EDA /* D1PostListViewController.m */; };
+		0D46915517E1081A00DDE46C /* UIView+CloseKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46915417E1081A00DDE46C /* UIView+CloseKeyboard.m */; };
+		0D46915817E10B1D00DDE46C /* D2CloseKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D46915717E10B1D00DDE46C /* D2CloseKeyboardView.m */; };
+		0DF0E86C17E132D60080FDD2 /* D1PostEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF0E86B17E132D60080FDD2 /* D1PostEditor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,12 @@
 		0D399DA617DFB9E300E52EDA /* D1Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D1Post.m; sourceTree = "<group>"; };
 		0D399DA817DFF34E00E52EDA /* D1PostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D1PostListViewController.h; sourceTree = "<group>"; };
 		0D399DA917DFF34E00E52EDA /* D1PostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D1PostListViewController.m; sourceTree = "<group>"; };
+		0D46915317E107FF00DDE46C /* UIView+CloseKeyboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIView+CloseKeyboard.h"; path = "../../../sea-b4-ios/day2/day2/UIView+CloseKeyboard.h"; sourceTree = "<group>"; };
+		0D46915417E1081A00DDE46C /* UIView+CloseKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+CloseKeyboard.m"; path = "../../../sea-b4-ios/day2/day2/UIView+CloseKeyboard.m"; sourceTree = "<group>"; };
+		0D46915617E10B1D00DDE46C /* D2CloseKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = D2CloseKeyboardView.h; path = "../../../sea-b4-ios/day2/day2/D2CloseKeyboardView.h"; sourceTree = "<group>"; };
+		0D46915717E10B1D00DDE46C /* D2CloseKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = D2CloseKeyboardView.m; path = "../../../sea-b4-ios/day2/day2/D2CloseKeyboardView.m"; sourceTree = "<group>"; };
+		0DF0E86A17E132D60080FDD2 /* D1PostEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D1PostEditor.h; sourceTree = "<group>"; };
+		0DF0E86B17E132D60080FDD2 /* D1PostEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D1PostEditor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +132,16 @@
 				0D399D8217DFB04600E52EDA /* Main.storyboard */,
 				0D399DA817DFF34E00E52EDA /* D1PostListViewController.h */,
 				0D399DA917DFF34E00E52EDA /* D1PostListViewController.m */,
-				0D399DA517DFB9E300E52EDA /* D1Post.h */,
-				0D399DA617DFB9E300E52EDA /* D1Post.m */,
 				0D399D8517DFB04600E52EDA /* D1NewPostViewController.h */,
 				0D399D8617DFB04600E52EDA /* D1NewPostViewController.m */,
+				0DF0E86A17E132D60080FDD2 /* D1PostEditor.h */,
+				0DF0E86B17E132D60080FDD2 /* D1PostEditor.m */,
+				0D46915617E10B1D00DDE46C /* D2CloseKeyboardView.h */,
+				0D46915717E10B1D00DDE46C /* D2CloseKeyboardView.m */,
+				0D46915317E107FF00DDE46C /* UIView+CloseKeyboard.h */,
+				0D46915417E1081A00DDE46C /* UIView+CloseKeyboard.m */,
+				0D399DA517DFB9E300E52EDA /* D1Post.h */,
+				0D399DA617DFB9E300E52EDA /* D1Post.m */,
 				0D399D8817DFB04600E52EDA /* Images.xcassets */,
 				0D399D7717DFB04600E52EDA /* Supporting Files */,
 			);
@@ -260,10 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D46915817E10B1D00DDE46C /* D2CloseKeyboardView.m in Sources */,
 				0D399D7D17DFB04600E52EDA /* main.m in Sources */,
 				0D399D8117DFB04600E52EDA /* D1AppDelegate.m in Sources */,
+				0DF0E86C17E132D60080FDD2 /* D1PostEditor.m in Sources */,
 				0D399DA717DFB9E300E52EDA /* D1Post.m in Sources */,
 				0D399DAA17DFF34E00E52EDA /* D1PostListViewController.m in Sources */,
+				0D46915517E1081A00DDE46C /* UIView+CloseKeyboard.m in Sources */,
 				0D399D8717DFB04600E52EDA /* D1NewPostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,6 +485,7 @@
 				0D399DA117DFB04700E52EDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D399DA217DFB04700E52EDA /* Build configuration list for PBXNativeTarget "PostLogger1Tests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +494,7 @@
 				0D399DA417DFB04700E52EDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

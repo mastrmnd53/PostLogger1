@@ -15,6 +15,7 @@
 
 @property (weak, nonatomic) IBOutlet UITextView *createContent;
 @property (weak, nonatomic) IBOutlet UITextField *createdTitle;
+@property (weak, nonatomic) IBOutlet UITextField * createdUsername;
 
 - (IBAction)saveButton:(UIButton *)sender;
 

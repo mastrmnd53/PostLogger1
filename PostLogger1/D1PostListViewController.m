@@ -8,6 +8,7 @@
 
 #import "D1PostListViewController.h"
 #import "D1Post.h"
+#import "D1PostEditor.h"
 
 @interface D1PostListViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -65,6 +66,27 @@
     cell.textLabel.text = cellPost.title;
     return cell;
 }
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:@"editPostSegue"])
+    {
+        D1PostEditor *editor = segue.destinationViewController;
+        editor.post = _posts[[_tableview indexPathForSelectedRow].row];
+    }
+}
+/*
+#pragma mark - NewPost delegate
+
+-(void) newPostViewController:(D1NewPostViewController *)newPostViewController didCreateNewPost:(D1Post *)post
+{
+    [_posts addObject:post];
+    [self.tableView reloadData];
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+*/
+
 
 
 @end
